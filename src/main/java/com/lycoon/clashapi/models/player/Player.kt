@@ -32,5 +32,6 @@ data class Player(
     val bestVersusTrophies: Int,
     val warStars: Int,
     val achievements: List<Achievement>,
-    val versusBattleWinCount: Int
+    val versusBattleWinCount: Int,
+    val clanCapitalContributions: Int
 )

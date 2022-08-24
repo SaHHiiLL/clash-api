@@ -68,10 +68,6 @@ class ClashAPI() {
         http = OkHttpClient()
     }
 
-    constructor(creds: Credentials) : this() {
-        http = OkHttpClient()
-    }
-
     constructor(token: String) : this() {
         TOKEN_LIST.add(token)
         http = OkHttpClient()

@@ -1,5 +1,6 @@
 package com.lycoon.clashapi.models.clan
 
+import com.lycoon.clashapi.models.clan.clanCapital.ClanCapital
 import com.lycoon.clashapi.models.common.BadgeUrls
 import com.lycoon.clashapi.models.common.Label
 import com.lycoon.clashapi.models.common.Language
@@ -20,10 +21,10 @@ data class Clan(
     val isWarLogPublic: Boolean,
     val warFrequency: String,
     val clanLevel: Int,
-    val warWinStreak: Int?,
-    val warWins: Int?,
-    val warTies: Int?,
-    val warLosses: Int?,
+    val warWinStreak: Int? = null,
+    val warWins: Int? = null,
+    val warTies: Int? = null,
+    val warLosses: Int? = null,
     val clanPoints: Int,
     val chatLanguage: Language? = null,
     val labels: List<Label>,
@@ -32,5 +33,6 @@ data class Clan(
     val type: String,
     val members: Int,
     val description: String,
-    val badgeUrls: BadgeUrls
+    val badgeUrls: BadgeUrls,
+    val clanCapital: ClanCapital,
 )
