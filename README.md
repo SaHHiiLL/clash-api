@@ -12,6 +12,19 @@ ClashAPI is a very simple yet very complete Kotlin wrapper for the Clash of Clan
 ## How does it work?
 I analyzed JSON responses from the Clash of Clans API to recreate the models as Java structures so you don't have to deal with deserialization and data categorization each time. You can therefore simply access game data through classes and methods, all documented!
 
+## How to install
+I plan to upload the project in `Maven central` in couple of months or weeks, but in the mean time follow this guide.
+
+### Dependencies
+> Java 11 or above
+> the latest release of maven
+
+`git clone https://github.com/SaHHiiLL/clash-api`
+`cd clash-api` 
+`mvn install`
+
+then `cd target` and you will find `clashapi-xxxx.jar` file which you can include in your project as dependency.
+
 
 ## How to use it?
 ```java
@@ -32,7 +45,7 @@ In order to make calls to the Clash of Clans API, Supercell (developer of the ga
 
 Though this token is linked to the IP address you gave, I would advise **not to hardcode it** inside your code, for safety sake. Paste it in a separate file that you would access from your code. It will prevent your token being spread if you ever share your files.
 
-## I do not have a static Ip address, my tokens are not working.
+## I do not have a static Ip address, my tokens are not working what should I do?
 This is a common limitation that many developers have to deal with, for that reason clash-api provides several ways to get tokens dynamically without having to 
 hardcode them in your code as well as manage them manually. 
 
@@ -67,17 +80,47 @@ hence the `Credentials` class, which you can instantiate with the example above.
 
 ### How does this work?
 Glad you asked!<br/>
-Clash API uses the [Clash of Clans API](https://developer.clashofclans.com/api-docs/v1/) to make requests to the API and on top of that it uses some hidden endpoints to make requests to login and manage user token. 
+Clash API docs uses the [Clash of Clans API](https://developer.clashofclans.com/api-docs/v1/) to make requests to the API and on top of that it uses some hidden endpoints to make requests to login and manage user token. 
 
 All the token are stored in a "Rotating" Mutex List which has a great benefit of 
-being able to rotate through multiple tokens and avoid rate limt from the API 
-(which is around 30-40 request/token), but due to the rotating token feature of clash Api with just 
-4 accounts we are able to make 1600 request/ second with 40 tokens and with almost no error (
-see: ENTER THE CODE EXAMPLE)
+being able to rotate through multiple tokens and avoid rate limit from the API 
+(which is around 30-40 request/token).
+With this new feature, we are able to make around 1600 requests/minute and avoid the rate limit completely (well kinda hehe). 
 
 ### How to make concurrent requests with Clash Api?
+```java
+public class Main {
+    public static void main(String[] args) throws ClashAPIException, IOException {
+        List<Credentials> credentials = List.of(
+                new Credentials("email", "password"),
+                new Credentials("email", "password"),
+                new Credentials("email", "password"),
+                new Credentials("email", "password")
+        );
+        ClashAPI c = new ClashAPI(credentials);
 
+        List<Future<?>> futures = new ArrayList<>();
+        ExecutorService service = Executors.newFixedThreadPool(500);
+        long start = System.currentTimeMillis();
+        for (int i = 0; i < 10_000; i++) {
+            Runnable runnable = () -> {
+                try {
+                    Player player = c.getPlayer("#2pp");
+                    System.out.println(player.getName());
+                } catch (ClashAPIException | IOException e) {
+                    e.printStackTrace();
+                }
+            };
+            futures.add(service.submit(runnable));
+        }
 
+        for (Future<?> future : futures) {
+            while (!future.isDone()){}
+        }
+    }
+}
+```
+this may not be the best way to make the concurrent requests, but this will give you general idea on how to make requests concurrently. 
 ## Dependencies
 * Kotlin serialization `1.3.1`
 * OkHttp `4.9.3`
