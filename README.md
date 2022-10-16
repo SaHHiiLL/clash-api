@@ -25,6 +25,7 @@ I plan to upload the project in `Maven central` in couple of months or weeks, bu
 
 then `cd target` and you will find `clashapi-xxxx.jar` file which you can include in your project as dependency.
 
+- Lastly there's always [jitpack](https://jitpack.io) 
 
 ## How to use it?
 ```java
