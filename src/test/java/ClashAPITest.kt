@@ -1,8 +1,8 @@
 import junit.framework.TestCase
-import com.lycoon.clashapi.core.ClashAPI
+import com.sahhiill.clashapi.core.ClashAPI
 import java.io.FileInputStream
 import java.io.IOException
-import com.lycoon.clashapi.core.exception.NotFoundException
+import com.sahhiill.clashapi.core.exception.NotFoundException
 import java.util.*
 
 const val CLAN_TAG = "UPCU2098"
