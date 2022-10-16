@@ -128,3 +128,6 @@ this may not be the best way to make the concurrent requests, but this will give
 
 ## Disclaimer
 *This material is unofficial and is not endorsed by Supercell. For more information see Supercell's Fan Content Policy: www.supercell.com/fan-content-policy.*
+
+### Still confused?
+Join our discord sever [here](https://discord.gg/clashapi)
