@@ -8,8 +8,8 @@ import kotlinx.serialization.Serializable
 data class Player(
     val clan: PlayerClan? = null,
     val league: League? = null,
-    val role: String,
-    var warPreference: String,
+    val role: String? = null,
+    var warPreference: String? = null,
     val attackWins: Int,
     val defenseWins: Int,
     val townHallLevel: Int,
