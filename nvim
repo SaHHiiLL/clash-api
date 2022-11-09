@@ -1,0 +1,1114 @@
+commit 54ed7e3872829aa9ef1253fde8643747498fbeb0
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Wed Nov 9 20:28:56 2022 +0000
+
+    fixed nullable value
+
+commit cad8791186f785c06770577bfd34e50364448e0f
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Wed Nov 9 14:32:14 2022 +0000
+
+    Fixed the bug with clan cap
+
+commit d71d5e36a511823da22f0c28705e6fa13faa13c8
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Sun Oct 16 11:38:06 2022 +0100
+
+    Updated README.md
+
+commit 2ffb96c3ad9f22007115033272b6e06064ebaa33
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Sun Oct 16 11:34:57 2022 +0100
+
+    Updated README.md
+
+commit eab019bba3d62899efe65dda2deaebab289d082c
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Sun Oct 16 11:33:09 2022 +0100
+
+    Updated README.md
+
+commit 59de20960d4b5100976abdaefdb6f96c4402a623
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Sun Oct 16 11:32:53 2022 +0100
+
+    Member and defender
+
+commit 0c647053749c806e14f9b77f1244c2140e368a98
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Sun Oct 16 11:29:51 2022 +0100
+
+    Clan capital update!
+
+commit 545beb23ebed2dafaa6476662655867d47398e18
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Sun Oct 16 11:29:12 2022 +0100
+
+    Moved
+
+commit 59b9d125532e72eef9efaa61975d5b6a16ebd533
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Sat Aug 27 08:56:11 2022 +0100
+
+    jitpack
+
+commit c890ea164decf17318bcedf529ebc11a70c63e0d
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Wed Aug 24 21:10:39 2022 +0100
+
+    updated README.md
+
+commit a7682f6c2766c23b9aeb6713f270d9e23d50f02a
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Wed Aug 24 20:53:06 2022 +0100
+
+    mvn
+
+commit 9ec6642ac0b9725fd725df815e99be1cba681d14
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Wed Aug 24 20:45:07 2022 +0100
+
+    mvn
+
+commit 26c1392a20aef5e4207f5904b0620b4a6e72fa87
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Wed Aug 24 20:42:24 2022 +0100
+
+    Clan Capital update.
+
+commit a1bff23902eadb58b46fb3fcc6c662e91f1b1420
+Author: sahil <sahilpanchal2903@gmail.com>
+Date:   Sun Jul 3 00:00:21 2022 +0100
+
+    Regex check for tag, to avoid http calls for known invalid tags
+
+commit 160ac6fb4bde561c737033257d8214cc7742843d
+Author: sahil <sahilpanchal2903@gmail.com>
+Date:   Fri Jul 1 23:36:41 2022 +0100
+
+    New and improved key handling and rotating key.
+
+commit b162b70f2b37998090519fa8090f331d0440e39d
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Tue May 3 20:54:53 2022 +0100
+
+    updated constructor
+
+commit fbd56a4320bbe9ee9d71cb2f857767b3fdf58896
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Tue May 3 20:54:08 2022 +0100
+
+    using filter instead
+
+commit aee555c3d72395adeb71ed72a937d7d0cb72d057
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 14:08:44 2022 +0100
+
+    Accidentally added `deserialize` in ClashAPI.kt. Fixed now
+
+commit eb546e28f00ab5fcab77d7469de517f995663618
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 13:27:37 2022 +0100
+
+    Fixed a small bug. `townHallWeaponLevel` should be nullable as players blow th12 will not have this field in json response.
+
+commit 6d476182412b6ef41dbbef1ef6b7a960c6953103
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 13:24:01 2022 +0100
+
+    thrown when login credentials are incorrect
+
+commit 5714d92c8e9a61ff23dfc48efb4fbeccaf583e8e
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 13:21:16 2022 +0100
+
+    Added gson, and slf4j.
+    
+    added fake username and password for now, will update later
+
+commit 8b2724c0a7b8364bbaa444d41d652ab46c36037a
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 13:20:40 2022 +0100
+
+    Added gson, and slf4j.
+    
+    I was unable to use the deserialize method in `CoreUtils.kt` largely due to the fact I do not understand kotlin, and had to use gson.
+
+commit 0d35b3e9c5935285b814fa06d7c91406e015b19c
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 13:18:45 2022 +0100
+
+    Handles the json from https requests
+
+commit 943cc29eeb848b0cd1ed210a3fa487623bfdf010
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 13:16:41 2022 +0100
+
+    Makes http requests for token generation
+
+commit 1e861f5478d6861b13804410677a5f6b6f376051
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 13:15:35 2022 +0100
+
+    New token class
+
+commit d0f78d82f4eeab92e595beb549eb0fc8c198828f
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 13:15:18 2022 +0100
+
+    Existing token class
+
+commit a8cef03c9206a656bb01c11e8d0ddfbda21c3e58
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 13:11:48 2022 +0100
+
+    Added a constructor to handle token creation. will throw `IncorrectLoginCredentialsException` if the login details are incorrect.
+
+commit 3fcede2e67e26e7931592fa77e37d7a45d14a0fe
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 13:00:16 2022 +0100
+
+    update gitignore
+
+commit a3df4739f60f62da860a1d40e71cf53f572ec74b
+Author: Hugo BOIS <hugo.bois@epita.fr>
+Date:   Tue Jan 4 00:53:01 2022 +0100
+
+    fixed release
+
+commit d1732c052db1b0b2ff59fb1a9b20ba6093886219
+Author: Hugo BOIS <hugo.bois@epita.fr>
+Date:   Tue Jan 4 00:43:56 2022 +0100
+
+    fixed nullable fields in WarClan and War models
+
+commit 846338cebe085796ba7c4d7d79cf297b349b8609
+Author: Hugo BOIS <hugo.bois@epita.fr>
+Date:   Mon Jan 3 23:41:13 2022 +0100
+
+    fixed nullable fields in War model
+
+commit 037d70f1797f766f8ba5c5eb91e763fdce4029b8
+Author: Hugo BOIS <hugo.bois@epita.fr>
+Date:   Mon Jan 3 23:09:30 2022 +0100
+
+    fixed nullable values in War and WarClan
+
+commit b9c61a666fe70475c2008c337a09abdcb1455c34
+Author: Hugo BOIS <hugo.bois@epita.fr>
+Date:   Mon Jan 3 20:39:33 2022 +0100
+
+    fixed: null tag in WarLeagueGroup
+
+commit 74c0b2812d5d09fd03a2cdcea93b7b53c795a9db
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Sun Dec 26 19:17:28 2021 +0100
+
+    Update README.md
+
+commit a572630fb3f3d2dd293324342d528c1334617033
+Author: hugo.bois <hugo.bois@epita.fr>
+Date:   Sun Dec 26 19:11:10 2021 +0100
+
+    changed tests from java to kotlin
+
+commit a4302e1debad7345f507cab8b883dd52c30b6fb0
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Thu Dec 23 15:36:53 2021 +0100
+
+    updated: pom.xml version for release
+
+commit 97de067770c17fbd869f0d62e4ec5a0fef804050
+Merge: 4bd922e 8a5c6e4
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Thu Dec 23 15:32:52 2021 +0100
+
+    Merge pull request #6 from Lycoon/convert-kotlin
+    
+    Added tests and fixed models
+
+commit 8a5c6e41c940dbd66c88b14c31812b9d5e1e860d
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Thu Dec 23 15:31:57 2021 +0100
+
+    added: tests and fixed models
+
+commit 4bd922ebaab76ed1f9690bb7a563a5105a1ffd80
+Merge: f4eb54f 7c214d4
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Thu Dec 23 13:00:54 2021 +0100
+
+    Merge pull request #5 from Lycoon/convert-kotlin
+    
+    Adding missing routes from Clash of Clans API
+
+commit 7c214d40adf91a28f5eb0961e1f71275efbd742d
+Merge: 1c33861 e80e48b
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Thu Dec 23 12:58:55 2021 +0100
+
+    Merge branch 'convert-kotlin' of github.com:Lycoon/clash-api into convert-kotlin
+
+commit 1c338612029238389fbc5dfc6030e39bf93d8afe
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Thu Dec 23 12:57:28 2021 +0100
+
+    added: routes from Clash of Clans API
+
+commit f4eb54f9474332c9307e54eb024caff4a7c81540
+Merge: 852fe94 e80e48b
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Thu Dec 23 11:59:44 2021 +0100
+
+    Merge pull request #4 from Lycoon/convert-kotlin
+    
+    Updated models and README
+
+commit e80e48b79805bef4463613b57460629b4a6d4a7f
+Merge: a3b6e96 852fe94
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Thu Dec 23 11:59:35 2021 +0100
+
+    Merge branch 'dev' into convert-kotlin
+
+commit a3b6e969897ab510af2f60ecb88ca2dddc2ca13f
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Thu Dec 23 11:58:08 2021 +0100
+
+    fixed: ci and readme
+
+commit 096d668471e6c95fc7b0c96e4c16794409aa54e5
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Thu Dec 23 11:55:24 2021 +0100
+
+    added: models for list results
+
+commit 852fe94eb647bcbed5d6fc2a6e1eac893a8f7789
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Wed Dec 22 16:49:30 2021 +0100
+
+    Update README.md
+
+commit 00acd5ed7048d7b8832ca83b4dbd44a3aa429279
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Wed Dec 22 16:31:22 2021 +0100
+
+    Update README.md
+
+commit 0fabc6e640f82802a040f4a6441262d4abfe106c
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Wed Dec 22 16:28:25 2021 +0100
+
+    Update README.md
+
+commit 1f58815ef239e3d61668dded859e957a2bf183a1
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Dec 22 16:05:49 2021 +0100
+
+    updated: ci pipelines
+
+commit e7bf45088a48be11934ab996cdc36a93a74778ec
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Dec 22 16:01:30 2021 +0100
+
+    updated: readme
+
+commit 96e16bda1e7553d4a24b947a4e897a5e5dca094d
+Merge: 7bebaad 140d4c9
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Wed Dec 22 15:51:11 2021 +0100
+
+    Merge pull request #2 from Lycoon/convert-kotlin
+    
+    Translated from Java to Kotlin
+
+commit 140d4c94d90d7e62d2d876a334a624c10947f5db
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Dec 22 12:04:12 2021 +0100
+
+    updated: set clan location as nullable
+
+commit fa7e68a8a44aba9b7e701c07d4a3a90217d48f6b
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Tue Dec 21 16:22:58 2021 +0100
+
+    fixed: nullable values for warlog
+
+commit ff58bb2c57d7fd8fb6c478e7009a3e8789e6b4ca
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Tue Dec 21 15:59:47 2021 +0100
+
+    fixed: made league and clan nullable in Player
+
+commit 7a8f772e42269bbf63d266b65256d3c5888cd7ab
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Tue Dec 21 15:41:57 2021 +0100
+
+    updated: builderHallLevel made nullable
+
+commit fc73ca3e381f85147b02943c183333ad49f79280
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Tue Dec 21 15:28:05 2021 +0100
+
+    fixed: maxLevel to integer and superTroopIsActive
+
+commit d81270fdde2126eef862b5d41ad4b2d06081b6c7
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Tue Dec 21 15:16:40 2021 +0100
+
+    fixed: memberList in Clan model
+
+commit 2b73df9fd53b1a144fc44ef0b30e0a7ece2e1e4d
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Tue Dec 21 15:07:42 2021 +0100
+
+    added: missing fields
+
+commit e08b471646ab41998dcb5d2a4f5f2cba9eb6c9bc
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Tue Dec 21 14:32:56 2021 +0100
+
+    refacto: moved models to folders and cleaned pom.xml
+
+commit 1284ec5b962e6a668f36c85792c06aab8c03f4a8
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Tue Dec 21 00:55:45 2021 +0100
+
+    fixed: null fields
+
+commit c9074cf5bb586e150f3888b52eb8fee3d4035c96
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Mon Dec 20 23:08:54 2021 +0100
+
+    added: last models and new routes
+
+commit 6c2824934d1be704dd798ad2741651b6096967d9
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Mon Dec 20 17:05:50 2021 +0100
+
+    started: converting to kotlin
+
+commit 7bebaadcbd91fb622ebe5ab97107277f73b7818c
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Nov 17 15:53:36 2021 +0100
+
+    fixed: version
+
+commit f51e94d738e3bfb34f0aa5ec0c65f30a2935710f
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Nov 17 15:52:06 2021 +0100
+
+    fixed: response close leak
+
+commit bfd268961436b4f6b0bbc3f2d25d68069fe1e55d
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Wed Nov 17 15:38:53 2021 +0100
+
+    Update build-ci.yml
+
+commit 40c51839ee3e4c3284aebbef170aefdd272190cf
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Wed Nov 17 15:37:23 2021 +0100
+
+    Update build-ci.yml
+
+commit e1fb538bebbf69d67b8513e3194853f931f2767d
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Nov 17 15:32:38 2021 +0100
+
+    added tests and improved tag format
+
+commit 72dc0acac5e79ba7993d3c5dee59bf7e5d7d3456
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Thu Oct 21 14:28:18 2021 +0200
+
+    testing: deployment
+
+commit bc7fb5497cd90108f67fe533484abaf2a948c6c6
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Thu Oct 21 12:37:23 2021 +0200
+
+    updated: package name
+
+commit 00711fc5bbe3a752f234e37b7f655fc10105058e
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Oct 20 17:06:18 2021 +0200
+
+    updated: changed package name
+
+commit b6b47fbea26ca85b39cd23093896bf16e24c32a1
+Merge: 57d6ba3 48baadb
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Oct 20 16:59:35 2021 +0200
+
+    Merge branch 'master' of github.com:Lycoon/clash-api
+
+commit 57d6ba3498ffe2efa575300a31c68abc05ddf627
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Oct 20 16:59:26 2021 +0200
+
+    updated: CI for package deployment
+
+commit 48baadb0e90ea1b6e52b5ffa7734812faf7c371b
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Wed Oct 20 15:45:02 2021 +0200
+
+    Update README.md
+
+commit 78d71f9c86dc72b59465ce2462d5c93ed74a5ab7
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Wed Oct 20 15:44:34 2021 +0200
+
+    Update README.md
+
+commit 7b38dbf46e88a2a1f941560c1ac69f0135cde951
+Merge: 8515de0 04b5ece
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Oct 20 12:50:54 2021 +0200
+
+    Merge branch 'master' of github.com:Lycoon/clash-api
+
+commit 8515de00add71776535d8a1eb7bb28c211d513cc
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Oct 20 12:50:42 2021 +0200
+
+    added: continuous integration flow
+
+commit 04b5ece7de82470e766a07c54b3a734760bcc960
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Wed Oct 20 10:59:07 2021 +0200
+
+    Update README.md
+
+commit 2ec379f2a2fc4b9398e050b083dbf8c559c19370
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Oct 20 10:58:06 2021 +0200
+
+    updated library versions
+
+commit 0301de4cf0f37a353ef7678e8fdfb9ea07cc6e30
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Oct 20 10:55:11 2021 +0200
+
+    switched from gradle to maven
+
+commit 90e06387d87485b0f2abb3f8fb09743a8e20d1b1
+Merge: 19c6632 89f80d9
+Author: hugo.bois <hugo.bois@epita.fr>
+Date:   Sun Apr 25 03:23:59 2021 +0200
+
+    Fixed conflicts
+
+commit 19c6632b7ca6885079454bbe029d5630977c4847
+Author: hugo.bois <hugo.bois@epita.fr>
+Date:   Sun Apr 25 03:19:35 2021 +0200
+
+    Added token verification, super troops, war durations, cleanup...
+
+commit 89f80d9dc42f954b42548175dc40598048c90ee6
+Author: Hugo BOIS <hugo.bois@epita.fr>
+Date:   Tue Sep 15 04:22:05 2020 +0200
+
+    General overhaul in ClashAPI class
+
+commit e51eb18ce28d73030e86105440bc32621fb9529f
+Author: Lycoon <hugo.bois@hotmail.fr>
+Date:   Thu Sep 3 02:49:54 2020 +0200
+
+    Overhaul improvements, enriched docs...
+
+commit d69915342e8b716a2c380472465323c3cdae5b63
+Author: Lycoon <hugo.bois@hotmail.fr>
+Date:   Sun Aug 9 19:21:55 2020 +0200
+
+    Fixed bugs, improved documentation (for null cases), added clan war league features
+
+commit d600ee59c2a6a60964287a4fafd91380be8a21b1
+Author: Lycoon <hugo.bois@hotmail.fr>
+Date:   Thu Jul 23 00:38:22 2020 +0200
+
+    Fixed tag format, enriched README and documentation
+
+commit 5d4eb19fb274fdbe122b52be8ac98935da2b93fb
+Author: Lycoon <hugo.bois@hotmail.fr>
+Date:   Wed Jul 22 21:35:29 2020 +0200
+
+    Updated logo
+
+commit d5f7b9eb844cc67dc9c1f614b97e3a82b616a812
+Author: Lycoon <hugo.bois@hotmail.fr>
+Date:   Wed Jul 22 21:34:01 2020 +0200
+
+    Updated logo and README
+
+commit f629471678e01655b661f1591ab92553fca8aecd
+Author: Lycoon <hugo.bois@hotmail.fr>
+Date:   Wed Jul 22 21:03:10 2020 +0200
+
+    Initial commit
+
+commit 5450049a9b92dc82479ba2b0201bb2dd14d90719
+Author: Lycoon <hugo.bois@hotmail.fr>
+Date:   Wed Jul 22 20:55:29 2020 +0200
+
+    Initial commit
+commit 8f78f54f4a8d8fa33d70544433b484bc39f1c6e1
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Wed Nov 9 20:53:27 2022 +0000
+
+    another nullable value fixed
+
+commit 54ed7e3872829aa9ef1253fde8643747498fbeb0
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Wed Nov 9 20:28:56 2022 +0000
+
+    fixed nullable value
+
+commit cad8791186f785c06770577bfd34e50364448e0f
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Wed Nov 9 14:32:14 2022 +0000
+
+    Fixed the bug with clan cap
+
+commit d71d5e36a511823da22f0c28705e6fa13faa13c8
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Sun Oct 16 11:38:06 2022 +0100
+
+    Updated README.md
+
+commit 2ffb96c3ad9f22007115033272b6e06064ebaa33
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Sun Oct 16 11:34:57 2022 +0100
+
+    Updated README.md
+
+commit eab019bba3d62899efe65dda2deaebab289d082c
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Sun Oct 16 11:33:09 2022 +0100
+
+    Updated README.md
+
+commit 59de20960d4b5100976abdaefdb6f96c4402a623
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Sun Oct 16 11:32:53 2022 +0100
+
+    Member and defender
+
+commit 0c647053749c806e14f9b77f1244c2140e368a98
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Sun Oct 16 11:29:51 2022 +0100
+
+    Clan capital update!
+
+commit 545beb23ebed2dafaa6476662655867d47398e18
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Sun Oct 16 11:29:12 2022 +0100
+
+    Moved
+
+commit 59b9d125532e72eef9efaa61975d5b6a16ebd533
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Sat Aug 27 08:56:11 2022 +0100
+
+    jitpack
+
+commit c890ea164decf17318bcedf529ebc11a70c63e0d
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Wed Aug 24 21:10:39 2022 +0100
+
+    updated README.md
+
+commit a7682f6c2766c23b9aeb6713f270d9e23d50f02a
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Wed Aug 24 20:53:06 2022 +0100
+
+    mvn
+
+commit 9ec6642ac0b9725fd725df815e99be1cba681d14
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Wed Aug 24 20:45:07 2022 +0100
+
+    mvn
+
+commit 26c1392a20aef5e4207f5904b0620b4a6e72fa87
+Author: SaHHiiLL <sahilpanchal2903@gmail.com>
+Date:   Wed Aug 24 20:42:24 2022 +0100
+
+    Clan Capital update.
+
+commit a1bff23902eadb58b46fb3fcc6c662e91f1b1420
+Author: sahil <sahilpanchal2903@gmail.com>
+Date:   Sun Jul 3 00:00:21 2022 +0100
+
+    Regex check for tag, to avoid http calls for known invalid tags
+
+commit 160ac6fb4bde561c737033257d8214cc7742843d
+Author: sahil <sahilpanchal2903@gmail.com>
+Date:   Fri Jul 1 23:36:41 2022 +0100
+
+    New and improved key handling and rotating key.
+
+commit b162b70f2b37998090519fa8090f331d0440e39d
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Tue May 3 20:54:53 2022 +0100
+
+    updated constructor
+
+commit fbd56a4320bbe9ee9d71cb2f857767b3fdf58896
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Tue May 3 20:54:08 2022 +0100
+
+    using filter instead
+
+commit aee555c3d72395adeb71ed72a937d7d0cb72d057
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 14:08:44 2022 +0100
+
+    Accidentally added `deserialize` in ClashAPI.kt. Fixed now
+
+commit eb546e28f00ab5fcab77d7469de517f995663618
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 13:27:37 2022 +0100
+
+    Fixed a small bug. `townHallWeaponLevel` should be nullable as players blow th12 will not have this field in json response.
+
+commit 6d476182412b6ef41dbbef1ef6b7a960c6953103
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 13:24:01 2022 +0100
+
+    thrown when login credentials are incorrect
+
+commit 5714d92c8e9a61ff23dfc48efb4fbeccaf583e8e
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 13:21:16 2022 +0100
+
+    Added gson, and slf4j.
+    
+    added fake username and password for now, will update later
+
+commit 8b2724c0a7b8364bbaa444d41d652ab46c36037a
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 13:20:40 2022 +0100
+
+    Added gson, and slf4j.
+    
+    I was unable to use the deserialize method in `CoreUtils.kt` largely due to the fact I do not understand kotlin, and had to use gson.
+
+commit 0d35b3e9c5935285b814fa06d7c91406e015b19c
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 13:18:45 2022 +0100
+
+    Handles the json from https requests
+
+commit 943cc29eeb848b0cd1ed210a3fa487623bfdf010
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 13:16:41 2022 +0100
+
+    Makes http requests for token generation
+
+commit 1e861f5478d6861b13804410677a5f6b6f376051
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 13:15:35 2022 +0100
+
+    New token class
+
+commit d0f78d82f4eeab92e595beb549eb0fc8c198828f
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 13:15:18 2022 +0100
+
+    Existing token class
+
+commit a8cef03c9206a656bb01c11e8d0ddfbda21c3e58
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 13:11:48 2022 +0100
+
+    Added a constructor to handle token creation. will throw `IncorrectLoginCredentialsException` if the login details are incorrect.
+
+commit 3fcede2e67e26e7931592fa77e37d7a45d14a0fe
+Author: Sahilpanchal2903 <sahilpanchal2903@gmail.com>
+Date:   Sun Apr 3 13:00:16 2022 +0100
+
+    update gitignore
+
+commit a3df4739f60f62da860a1d40e71cf53f572ec74b
+Author: Hugo BOIS <hugo.bois@epita.fr>
+Date:   Tue Jan 4 00:53:01 2022 +0100
+
+    fixed release
+
+commit d1732c052db1b0b2ff59fb1a9b20ba6093886219
+Author: Hugo BOIS <hugo.bois@epita.fr>
+Date:   Tue Jan 4 00:43:56 2022 +0100
+
+    fixed nullable fields in WarClan and War models
+
+commit 846338cebe085796ba7c4d7d79cf297b349b8609
+Author: Hugo BOIS <hugo.bois@epita.fr>
+Date:   Mon Jan 3 23:41:13 2022 +0100
+
+    fixed nullable fields in War model
+
+commit 037d70f1797f766f8ba5c5eb91e763fdce4029b8
+Author: Hugo BOIS <hugo.bois@epita.fr>
+Date:   Mon Jan 3 23:09:30 2022 +0100
+
+    fixed nullable values in War and WarClan
+
+commit b9c61a666fe70475c2008c337a09abdcb1455c34
+Author: Hugo BOIS <hugo.bois@epita.fr>
+Date:   Mon Jan 3 20:39:33 2022 +0100
+
+    fixed: null tag in WarLeagueGroup
+
+commit 74c0b2812d5d09fd03a2cdcea93b7b53c795a9db
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Sun Dec 26 19:17:28 2021 +0100
+
+    Update README.md
+
+commit a572630fb3f3d2dd293324342d528c1334617033
+Author: hugo.bois <hugo.bois@epita.fr>
+Date:   Sun Dec 26 19:11:10 2021 +0100
+
+    changed tests from java to kotlin
+
+commit a4302e1debad7345f507cab8b883dd52c30b6fb0
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Thu Dec 23 15:36:53 2021 +0100
+
+    updated: pom.xml version for release
+
+commit 97de067770c17fbd869f0d62e4ec5a0fef804050
+Merge: 4bd922e 8a5c6e4
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Thu Dec 23 15:32:52 2021 +0100
+
+    Merge pull request #6 from Lycoon/convert-kotlin
+    
+    Added tests and fixed models
+
+commit 8a5c6e41c940dbd66c88b14c31812b9d5e1e860d
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Thu Dec 23 15:31:57 2021 +0100
+
+    added: tests and fixed models
+
+commit 4bd922ebaab76ed1f9690bb7a563a5105a1ffd80
+Merge: f4eb54f 7c214d4
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Thu Dec 23 13:00:54 2021 +0100
+
+    Merge pull request #5 from Lycoon/convert-kotlin
+    
+    Adding missing routes from Clash of Clans API
+
+commit 7c214d40adf91a28f5eb0961e1f71275efbd742d
+Merge: 1c33861 e80e48b
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Thu Dec 23 12:58:55 2021 +0100
+
+    Merge branch 'convert-kotlin' of github.com:Lycoon/clash-api into convert-kotlin
+
+commit 1c338612029238389fbc5dfc6030e39bf93d8afe
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Thu Dec 23 12:57:28 2021 +0100
+
+    added: routes from Clash of Clans API
+
+commit f4eb54f9474332c9307e54eb024caff4a7c81540
+Merge: 852fe94 e80e48b
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Thu Dec 23 11:59:44 2021 +0100
+
+    Merge pull request #4 from Lycoon/convert-kotlin
+    
+    Updated models and README
+
+commit e80e48b79805bef4463613b57460629b4a6d4a7f
+Merge: a3b6e96 852fe94
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Thu Dec 23 11:59:35 2021 +0100
+
+    Merge branch 'dev' into convert-kotlin
+
+commit a3b6e969897ab510af2f60ecb88ca2dddc2ca13f
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Thu Dec 23 11:58:08 2021 +0100
+
+    fixed: ci and readme
+
+commit 096d668471e6c95fc7b0c96e4c16794409aa54e5
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Thu Dec 23 11:55:24 2021 +0100
+
+    added: models for list results
+
+commit 852fe94eb647bcbed5d6fc2a6e1eac893a8f7789
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Wed Dec 22 16:49:30 2021 +0100
+
+    Update README.md
+
+commit 00acd5ed7048d7b8832ca83b4dbd44a3aa429279
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Wed Dec 22 16:31:22 2021 +0100
+
+    Update README.md
+
+commit 0fabc6e640f82802a040f4a6441262d4abfe106c
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Wed Dec 22 16:28:25 2021 +0100
+
+    Update README.md
+
+commit 1f58815ef239e3d61668dded859e957a2bf183a1
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Dec 22 16:05:49 2021 +0100
+
+    updated: ci pipelines
+
+commit e7bf45088a48be11934ab996cdc36a93a74778ec
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Dec 22 16:01:30 2021 +0100
+
+    updated: readme
+
+commit 96e16bda1e7553d4a24b947a4e897a5e5dca094d
+Merge: 7bebaad 140d4c9
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Wed Dec 22 15:51:11 2021 +0100
+
+    Merge pull request #2 from Lycoon/convert-kotlin
+    
+    Translated from Java to Kotlin
+
+commit 140d4c94d90d7e62d2d876a334a624c10947f5db
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Dec 22 12:04:12 2021 +0100
+
+    updated: set clan location as nullable
+
+commit fa7e68a8a44aba9b7e701c07d4a3a90217d48f6b
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Tue Dec 21 16:22:58 2021 +0100
+
+    fixed: nullable values for warlog
+
+commit ff58bb2c57d7fd8fb6c478e7009a3e8789e6b4ca
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Tue Dec 21 15:59:47 2021 +0100
+
+    fixed: made league and clan nullable in Player
+
+commit 7a8f772e42269bbf63d266b65256d3c5888cd7ab
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Tue Dec 21 15:41:57 2021 +0100
+
+    updated: builderHallLevel made nullable
+
+commit fc73ca3e381f85147b02943c183333ad49f79280
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Tue Dec 21 15:28:05 2021 +0100
+
+    fixed: maxLevel to integer and superTroopIsActive
+
+commit d81270fdde2126eef862b5d41ad4b2d06081b6c7
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Tue Dec 21 15:16:40 2021 +0100
+
+    fixed: memberList in Clan model
+
+commit 2b73df9fd53b1a144fc44ef0b30e0a7ece2e1e4d
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Tue Dec 21 15:07:42 2021 +0100
+
+    added: missing fields
+
+commit e08b471646ab41998dcb5d2a4f5f2cba9eb6c9bc
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Tue Dec 21 14:32:56 2021 +0100
+
+    refacto: moved models to folders and cleaned pom.xml
+
+commit 1284ec5b962e6a668f36c85792c06aab8c03f4a8
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Tue Dec 21 00:55:45 2021 +0100
+
+    fixed: null fields
+
+commit c9074cf5bb586e150f3888b52eb8fee3d4035c96
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Mon Dec 20 23:08:54 2021 +0100
+
+    added: last models and new routes
+
+commit 6c2824934d1be704dd798ad2741651b6096967d9
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Mon Dec 20 17:05:50 2021 +0100
+
+    started: converting to kotlin
+
+commit 7bebaadcbd91fb622ebe5ab97107277f73b7818c
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Nov 17 15:53:36 2021 +0100
+
+    fixed: version
+
+commit f51e94d738e3bfb34f0aa5ec0c65f30a2935710f
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Nov 17 15:52:06 2021 +0100
+
+    fixed: response close leak
+
+commit bfd268961436b4f6b0bbc3f2d25d68069fe1e55d
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Wed Nov 17 15:38:53 2021 +0100
+
+    Update build-ci.yml
+
+commit 40c51839ee3e4c3284aebbef170aefdd272190cf
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Wed Nov 17 15:37:23 2021 +0100
+
+    Update build-ci.yml
+
+commit e1fb538bebbf69d67b8513e3194853f931f2767d
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Nov 17 15:32:38 2021 +0100
+
+    added tests and improved tag format
+
+commit 72dc0acac5e79ba7993d3c5dee59bf7e5d7d3456
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Thu Oct 21 14:28:18 2021 +0200
+
+    testing: deployment
+
+commit bc7fb5497cd90108f67fe533484abaf2a948c6c6
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Thu Oct 21 12:37:23 2021 +0200
+
+    updated: package name
+
+commit 00711fc5bbe3a752f234e37b7f655fc10105058e
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Oct 20 17:06:18 2021 +0200
+
+    updated: changed package name
+
+commit b6b47fbea26ca85b39cd23093896bf16e24c32a1
+Merge: 57d6ba3 48baadb
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Oct 20 16:59:35 2021 +0200
+
+    Merge branch 'master' of github.com:Lycoon/clash-api
+
+commit 57d6ba3498ffe2efa575300a31c68abc05ddf627
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Oct 20 16:59:26 2021 +0200
+
+    updated: CI for package deployment
+
+commit 48baadb0e90ea1b6e52b5ffa7734812faf7c371b
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Wed Oct 20 15:45:02 2021 +0200
+
+    Update README.md
+
+commit 78d71f9c86dc72b59465ce2462d5c93ed74a5ab7
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Wed Oct 20 15:44:34 2021 +0200
+
+    Update README.md
+
+commit 7b38dbf46e88a2a1f941560c1ac69f0135cde951
+Merge: 8515de0 04b5ece
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Oct 20 12:50:54 2021 +0200
+
+    Merge branch 'master' of github.com:Lycoon/clash-api
+
+commit 8515de00add71776535d8a1eb7bb28c211d513cc
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Oct 20 12:50:42 2021 +0200
+
+    added: continuous integration flow
+
+commit 04b5ece7de82470e766a07c54b3a734760bcc960
+Author: Hugo Bois <hugo.bois@hotmail.fr>
+Date:   Wed Oct 20 10:59:07 2021 +0200
+
+    Update README.md
+
+commit 2ec379f2a2fc4b9398e050b083dbf8c559c19370
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Oct 20 10:58:06 2021 +0200
+
+    updated library versions
+
+commit 0301de4cf0f37a353ef7678e8fdfb9ea07cc6e30
+Author: Hugo Bois <h.bois@scorf.io>
+Date:   Wed Oct 20 10:55:11 2021 +0200
+
+    switched from gradle to maven
+
+commit 90e06387d87485b0f2abb3f8fb09743a8e20d1b1
+Merge: 19c6632 89f80d9
+Author: hugo.bois <hugo.bois@epita.fr>
+Date:   Sun Apr 25 03:23:59 2021 +0200
+
+    Fixed conflicts
+
+commit 19c6632b7ca6885079454bbe029d5630977c4847
+Author: hugo.bois <hugo.bois@epita.fr>
+Date:   Sun Apr 25 03:19:35 2021 +0200
+
+    Added token verification, super troops, war durations, cleanup...
+
+commit 89f80d9dc42f954b42548175dc40598048c90ee6
+Author: Hugo BOIS <hugo.bois@epita.fr>
+Date:   Tue Sep 15 04:22:05 2020 +0200
+
+    General overhaul in ClashAPI class
+
+commit e51eb18ce28d73030e86105440bc32621fb9529f
+Author: Lycoon <hugo.bois@hotmail.fr>
+Date:   Thu Sep 3 02:49:54 2020 +0200
+
+    Overhaul improvements, enriched docs...
+
+commit d69915342e8b716a2c380472465323c3cdae5b63
+Author: Lycoon <hugo.bois@hotmail.fr>
+Date:   Sun Aug 9 19:21:55 2020 +0200
+
+    Fixed bugs, improved documentation (for null cases), added clan war league features
+
+commit d600ee59c2a6a60964287a4fafd91380be8a21b1
+Author: Lycoon <hugo.bois@hotmail.fr>
+Date:   Thu Jul 23 00:38:22 2020 +0200
+
+    Fixed tag format, enriched README and documentation
+
+commit 5d4eb19fb274fdbe122b52be8ac98935da2b93fb
+Author: Lycoon <hugo.bois@hotmail.fr>
+Date:   Wed Jul 22 21:35:29 2020 +0200
+
+    Updated logo
+
+commit d5f7b9eb844cc67dc9c1f614b97e3a82b616a812
+Author: Lycoon <hugo.bois@hotmail.fr>
+Date:   Wed Jul 22 21:34:01 2020 +0200
+
+    Updated logo and README
+
+commit f629471678e01655b661f1591ab92553fca8aecd
+Author: Lycoon <hugo.bois@hotmail.fr>
+Date:   Wed Jul 22 21:03:10 2020 +0200
+
+    Initial commit
+
+commit 5450049a9b92dc82479ba2b0201bb2dd14d90719
+Author: Lycoon <hugo.bois@hotmail.fr>
+Date:   Wed Jul 22 20:55:29 2020 +0200
+
+    Initial commit
