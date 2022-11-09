@@ -4,7 +4,7 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class LegendSeasonResult(
-    val trophies: Int,
+    val trophies: Int? = null,
     val id: String? = null,
     val rank: Int? = null
 )
