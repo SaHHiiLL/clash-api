@@ -15,4 +15,4 @@ local.properties
 .loadpath
 .recommenders
 .idea
-src/main/java/com/lycoon/clashapi/core/Main.java
+/src/main/java/com/sahhiill/clashapi/Main.java

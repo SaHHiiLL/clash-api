@@ -4,6 +4,6 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class ClanCapital (
-    val capitalHallLevel: Int,
+    val capitalHallLevel: Int? = null,
     val districts: List<District>? = null
 )

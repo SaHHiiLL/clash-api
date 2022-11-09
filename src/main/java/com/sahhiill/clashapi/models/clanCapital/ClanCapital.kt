@@ -1,7 +1,6 @@
 package com.sahhiill.clashapi.models.clanCapital
 
 import kotlinx.serialization.Serializable
-import java.util.ListResourceBundle
 
 @Serializable
 data class ClanCapital(
