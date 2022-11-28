@@ -35,7 +35,7 @@ object CoreUtils {
     }
 
     fun formatTag(tag: String): String {
-        var tag = tag.toUpperCase()
+        var tag = tag.trim().toUpperCase()
         if (!tag.startsWith("#")) {
             tag = "#$tag"
         }
@@ -46,7 +46,7 @@ object CoreUtils {
         }
     }
 
-    fun checkTagWithRegex(tag: String ): Boolean {
+    private fun checkTagWithRegex(tag: String ): Boolean {
         return tag.toUpperCase().matches("^#[PYLQGRJCUV0289]+$".toRegex())
     }
 }
