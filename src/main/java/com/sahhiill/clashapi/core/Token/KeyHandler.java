@@ -91,7 +91,7 @@ public class KeyHandler {
      * @throws IOException
      */
     private String getIP() throws IOException {
-        java.net.URL url = new URL("http://checkip.amazonaws.com");
+        java.net.URL url = new URL("https://checkip.amazonaws.com");
         BufferedReader in = new BufferedReader(new InputStreamReader(
                 url.openStream()));
         return in.readLine();
