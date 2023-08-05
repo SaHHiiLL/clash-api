@@ -15,5 +15,5 @@ data class ClanMember(
     val donations: Int,
     val donationsReceived: Int,
     val trophies: Int,
-    val versusTrophies: Int
+    val builderBaseTrophies: Int
 )

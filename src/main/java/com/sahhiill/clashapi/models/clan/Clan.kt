@@ -13,10 +13,10 @@ import kotlinx.serialization.Serializable
 data class Clan(
     val warLeague: WarLeague,
     val memberList: List<ClanMember>,
-    val requiredVersusTrophies: Int,
+    val requiredBuilderBaseTrophies: Int,
     val requiredTownhallLevel: Int,
     val requiredTrophies: Int,
-    val clanVersusPoints: Int,
+    val clanBuilderBasePoints: Int,
     val tag: String,
     val isWarLogPublic: Boolean,
     val warFrequency: String,
@@ -35,4 +35,5 @@ data class Clan(
     val description: String,
     val badgeUrls: BadgeUrls,
     val clanCapital: ClanCapital,
+    val familyFriendly : Boolean
 )
