@@ -366,14 +366,14 @@ class ClashAPI() {
      *
      * @param locationId `String` of the location id
      * @return List<ClanVersusRanking>
-     * @see ClanVersusRanking
+     * @see ClanBuilderBaseRanking
      *
      * @throws IOException if the deserialization failed
      * @throws ClashAPIException if the request to the game API failed
      */
     @Throws(IOException::class, ClashAPIException::class)
-    fun getClanVersusRankings(locationId: String): List<ClanVersusRanking> {
-        val res = get("/locations/${locationId}/rankings/clans-versus")
+    fun getClanVersusRankings(locationId: String): List<ClanBuilderBaseRanking> {
+        val res = get("/locations/${locationId}/rankings/clans-builder-base")
         return deserialize<ClanVersusRankingList>(res).items
     }
 
@@ -398,14 +398,14 @@ class ClashAPI() {
      *
      * @param locationId `String` of the location id
      * @return List<PlayerVersusRanking>
-     * @see PlayerVersusRanking
+     * @see PlayerBuilderBaseRanking
      *
      * @throws IOException if the deserialization failed
      * @throws ClashAPIException if the request to the game API failed
      */
     @Throws(IOException::class, ClashAPIException::class)
-    fun getPlayerVersusRankings(locationId: String): List<PlayerVersusRanking> {
-        val res = get("/locations/${locationId}/rankings/players-versus")
+    fun getPlayerVersusRankings(locationId: String): List<PlayerBuilderBaseRanking> {
+        val res = get("/locations/${locationId}/rankings/players-builder-base")
         return deserialize<PlayerVersusRankingList>(res).items
     }
 

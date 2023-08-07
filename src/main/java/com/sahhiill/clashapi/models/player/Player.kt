@@ -1,6 +1,7 @@
 package com.sahhiill.clashapi.models.player
 
 import com.sahhiill.clashapi.models.common.Label
+import com.sahhiill.clashapi.models.league.BuilderBaseLeague
 import com.sahhiill.clashapi.models.league.League
 import kotlinx.serialization.Serializable
 
@@ -14,7 +15,6 @@ data class Player(
     val defenseWins: Int,
     val townHallLevel: Int,
     val townHallWeaponLevel: Int? = null,
-    val versusBattleWins: Int,
     val legendStatistics: PlayerLegendStatistics? = null,
     val troops: List<Troop>,
     val heroes: List<Troop>,
@@ -28,10 +28,9 @@ data class Player(
     val donations: Int,
     val donationsReceived: Int,
     val builderHallLevel: Int? = null,
-    val versusTrophies: Int,
-    val bestVersusTrophies: Int,
+    val builderBaseTrophies: Int?=null,
     val warStars: Int,
     val achievements: List<Achievement>,
-    val versusBattleWinCount: Int,
-    val clanCapitalContributions: Int
+    val clanCapitalContributions: Int? = null,
+    val builderBaseLeague: BuilderBaseLeague? = null
 )

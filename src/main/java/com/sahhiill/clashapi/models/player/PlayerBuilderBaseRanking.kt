@@ -1,9 +1,10 @@
 package com.sahhiill.clashapi.models.player
 
+import com.sahhiill.clashapi.models.league.BuilderBaseLeague
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class PlayerVersusRanking(
+data class PlayerBuilderBaseRanking(
     val clan: PlayerRankingClan,
     val versusBattleWins: Int,
     val tag: String,
@@ -11,5 +12,6 @@ data class PlayerVersusRanking(
     val expLevel: Int,
     val rank: Int,
     val previousRank: Int,
-    val versusTrophies: Int
+    val builderBaseTrophies: Int,
+    val builderBaseLeague : BuilderBaseLeague? = null
 )
