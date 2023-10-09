@@ -35,5 +35,5 @@ data class Clan(
     val description: String,
     val badgeUrls: BadgeUrls,
     val clanCapital: ClanCapital,
-    val familyFriendly : Boolean
+    val familyFriendly : Boolean? = null
 )
